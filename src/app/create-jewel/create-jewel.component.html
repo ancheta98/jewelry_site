@@ -1,0 +1,12 @@
+<div class="container" id="create">
+    <h2>New Product</h2>
+    <h3 *ngFor="let error of errors">{{error}}</h3>
+    <form (submit)="createProduct()" class="form-group">
+      Name: <input type="text" name="name" [(ngModel)]="newProduct.name" class="form-control">
+      Price: <input type="text" name="price" [(ngModel)]="newProduct.price" class="form-control">
+      Description: <input type="text" name="description" [(ngModel)]="newProduct.description" class="form-control">
+      Pic: <input type="text" name='pic' [(ngModel)]="newProduct.pic" class="form-control">
+      <input type="submit" value="Create" class="btn btn-success">
+    </form>
+  </div>
+  

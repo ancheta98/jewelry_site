@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+#main {
+    padding: 150px 30px;
+}
+#content{
+    display: inline-block;
+    width: 50%;
+    margin-left: 20%;
+    height: 300px;
+}
+/* #item{
+    width: 350px;
+    margin-right: 0 !important;
+} */
+
+img{
+    width: 500px;
+}
+/* button{
+    background: white;
+    color: black;
+}
+button:hover{
+    background: gold;
+    color: black
+} */
+a{
+    padding: 6px;
+    color: black;
+    border: #a6a6a6 2px solid;
+}
+a:hover {
+    border: goldenrod 2px solid;
+    color: goldenrod;
+    font-style: oblique;
+    font-weight: 400;
+}   
+h1{
+    font-weight: 500
+}
+p {
+
+    margin: 10px 0px;
+    font-size: 12pt;
+}
+#price {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background: url(https://mitchellkrog.com/wp-content/uploads/2015/02/african-landscape-photography.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+#home {
+    background: url(https://mitchellkrog.com/wp-content/uploads/2015/02/african-landscape-photography.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    min-height: 500px;
+    height: 100vh;
+    position: relative;
+    min-width: 100%;
+  }
+  #home h1{
+    position: relative;
+    top: 50% !important;
+    color: #FFF !important;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 300;
+    font-size: 75px;
+    letter-spacing: 10px;
+    margin: 15% 0%;
+  }
+#join a {
+    position: relative;
+    top: 50% !important;
+    color: #FFF !important;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin: 15% 0%;
+    background-color: rgba(31, 26, 18, 0.75);
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  #join{
+      display: table;
+
+  }
+  .text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+  #background{
+      background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/34LDmYO/beautiful-oriental-gold-jewelry-indian-arab-african-egyptian-fashion-exotic-accessories-asian-gold-jewelry-tribal-jewelry-for-belly-dance-oriental-costumes-necklace-earrings-bracelets_bb8sgmsx__F0007.png) fixed center center no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      min-height: 500px;
+      height: 100vh;
+      width: 100%;
+      display:block;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      justify-content: center;
+      padding-top: 25% 
+  }
+#infoText ul li{
+    display: inline;
+    font-size: 25pt;
+    margin: 0px 35px;
+    font-family: 'Cormorant Garamond', serif !important;
+
+}
+#infoText{
+    width: 100%;
+    min-height: 100px;
+    background: black;
+    color: white;
+    display: block;
+    padding: 20px;
+}

@@ -1,0 +1,40 @@
+<head>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+      $(Document).ready(function(){
+
+      });
+  </script>
+</head>
+<div id="header">
+
+</div>
+<div id="content">
+  <div class="card" *ngFor="let product of products">
+      <img class="card-img-top" src="{{product.pic}}" alt="Card image cap">
+      <div class="card-body" >
+        <a [routerLink]="['product/', product._id]">{{product.name}}</a>
+        <p class="card-text">{{product.price}}</p>
+      </div>
+  </div>
+</div>
+<div name="aboutImg" id="aboutImg"></div>
+<div id="info">
+  <div class="about" id ="#contact">
+    <div class="aboutHead">
+      <h1>About</h1>
+    </div>
+    <div class="aboutText">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iure qui cum! Saepe, necessitatibus magnam delectus veritatis, vero voluptas labore adipisci <span>tempore</span> quo et quisquam iste dolor cum accusamus iusto?Lorem ipsum dolor, sit amet consectetur <span>adipisicing elit</span>. Nulla quae aliquid vitae mollitia quibusdam, in eos nostrum eligendi corporis repellendus a aliquam nemo est, ad iusto modi aperiam libero maiores. </p>
+    </div>
+  </div>
+  <div class="about">    
+    <div class="aboutText">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ullam vel repellat asperiores ratione animi assumenda, magnam qui laboriosam autem, fuga hic adipisci! Doloremque, <span>dolorum</span> earum nihil repellat unde quia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea tempore porro placeat molestiae consequuntur. Numquam vel eligendi consequuntur harum vitae in iusto voluptates distinctio voluptate alias? Rerum, numquam. Ducimus, corrupti.</p>
+    </div>
+    <div class="aboutHead">
+      <h1>Contact</h1>
+    </div>
+
+  </div>
+</div>

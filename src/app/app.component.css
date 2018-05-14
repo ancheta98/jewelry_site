@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 75px;
+    /* background: rgba(0,0,0,0) !important; */
+    /* background-color: transparent !import
+     */
+}
+.nav-item{
+    padding-left: 30px;
+    text-align: center;
+}
+nav ul{
+    width: 100%;
+    
+}
+nav ul li{
+    float: right;
+}

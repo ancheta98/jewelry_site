@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background: url(https://cdn.shopify.com/s/files/1/2122/5147/products/goldpanther2_1024x1024@2x.jpg?v=1520819526) fixed center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+    min-width: 100%;
+}
+#content{
+    padding: 50px 10px 50px 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap:         wrap;
+}
+.card {
+    width: 320px;
+    border: none;
+    margin: 0px 150px;
+}
+.card-img-top{
+    max-height: 20rem;
+}
+/* .card-body a {
+    color: #bd9c57;
+    margin-left: 5rem;
+} */
+.card-body{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 15pt;
+}
+.card-text{
+    font-style: oblique;
+}
+.card-body a {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 500;
+    font-size: 20pt;
+    color: black;
+}
+.card-body a:hover{
+    color: goldenrod;
+    font-style: oblique;
+}
+#aboutImg{
+    background: url(https://cdn.shopify.com/s/files/1/1223/6816/products/2016-07-19_03.11.30_2_1024x1024.jpg?v=1503350654)fixed center center no-repeat;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+#info {
+   width: 100%;
+   font-family: 'Cormorant Garamond', serif !important;
+   display: inline-block;
+
+}
+.about{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between; 
+    justify-content: space-between;
+    padding: 50px 100px 0px 100px;
+}
+.aboutHead{
+    width: 50%;
+    margin-top: 1.5%;
+    text-align: center;
+}
+.aboutHead h1{
+    /* color: goldenrod; */
+    vertical-align: middle;
+}
+.aboutText {
+    width: 50%;
+    line-height: 35px;
+}
+.aboutText p{
+    text-align: center;
+}
+span{
+    color: goldenrod;
+}
+
